@@ -15,11 +15,16 @@ Automate and maintain developer machine setup.
 
 Supported platforms:
 
-| OS    | Version(s)        |
-|-------|-------------------|
-| macOS | 12.5.1 (Monterey) |
+```{list-table}
+---
+header-rows: 1
+---
 
-
+* - OS
+  - Version
+* - macOS
+  - 12.5.1 (Monterey)
+```
 ## Development
 
 To contribute, check out the {doc}`development overview <development/overview>`.
