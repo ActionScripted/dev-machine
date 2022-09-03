@@ -1,12 +1,20 @@
-# Welcome to dev-machine's documentation!
+# dev-machine
+
+Automate and maintain developer machine setup.
+
+Supported platforms:
+
+| OS    | Version(s)        |
+|-------|-------------------|
+| macOS | 12.5.1 (Monterey) |
+
 
 ```{toctree}
 ---
 maxdepth: 2
 ---
 
-development
-virtual-machines
+development/index
 ```
 
 ## Indices and tables
