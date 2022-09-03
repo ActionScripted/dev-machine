@@ -1,13 +1,5 @@
 # Development
 
-```{toctree}
----
-caption: Episodes
-maxdepth: 2
----
-
-```
-
 **This is for development of `dev-machine`, not customization.**
 
 ## Philosophy
