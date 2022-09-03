@@ -17,4 +17,5 @@ jobs:
       with:
         branch: ${{ github.ref }}
         directory: "docs/_build"
+        force: true
         github_token: ${{ secrets.GITHUB_TOKEN }}
