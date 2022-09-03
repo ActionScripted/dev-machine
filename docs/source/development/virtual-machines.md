@@ -55,6 +55,7 @@ Run VM, give it the ISO, then in the VM:
 
 1. Disk Utility > format the "(VM hard drive name)..." as "Macintosh HD" APFS
 2. Install, select HD, agree, wait ~25 minutes for install
-3. Take a VM snapshot
-4. Install VMWare Tools
-5. Take a VM snapshot
+3. Power down, take a VM snapshot
+4. Power on, install VMWare Tools
+5. Power down, take a VM snapshot
+6. DONE! If things get weird, rollback to a snapshot.
