@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  docs:
+    build:
+      dockerfile: compose/docs//Dockerfile
+      context: .
+      target: service
+    volumes:
+      - .:/app
