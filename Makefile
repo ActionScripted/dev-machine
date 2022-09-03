@@ -16,6 +16,19 @@ docs-build:
 docs-clean:
 	echo "Sup"
 
+docs-shell:
+	@docker-compose -f development/docker-compose.yml run docs bash
+
+
+##
+# Development
+#
+dev-build:
+	@docker-compose -f development/docker-compose.yml build --no-cache
+
+dev-down:
+	@docker-compose -f development/docker-compose.yml down
+
 dev-setup:
 	@echo "Please install pre-commit:"
 	@echo "https://pre-commit.com/#installation"
