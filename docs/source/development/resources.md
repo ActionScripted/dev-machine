@@ -7,6 +7,10 @@ Resources that are similar or related or used as reference. Please update them w
 * <https://github.com/Homebrew/brew/blob/master/.github/workflows/tests.yml>
 * <https://rhonabwy.com/2020/05/09/continuous-integration-with-github-actions-for-macos-and-ios-projects/>
 
+## Documentation
+
+* <https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html>
+
 ## Related or Similar
 
 * <https://developer.apple.com/forums/thread/698954>
