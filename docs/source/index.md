@@ -1,5 +1,14 @@
 # dev-machine
 
+```{toctree}
+---
+maxdepth: 2
+hidden: true
+---
+
+development/index
+```
+
 Automate and maintain developer machine setup.
 
 Supported platforms:
@@ -9,16 +18,6 @@ Supported platforms:
 | macOS | 12.5.1 (Monterey) |
 
 
-```{toctree}
----
-maxdepth: 2
----
+## Development
 
-development/index
-```
-
-## Indices and tables
-
-* {ref}`genindex`
-* {ref}`modindex`
-* {ref}`search`
+To contribute, check out the {doc}`development overview <development/overview>`.
