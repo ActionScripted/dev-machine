@@ -1,5 +1,7 @@
 # Virtual Machines
 
+When working locally it can be nice to have a safe, isolated place to test things.
+
 ## macOS Virtual Machine
 
 ### Get / Create macOS ISO
