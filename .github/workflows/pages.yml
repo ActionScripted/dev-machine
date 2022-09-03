@@ -1,5 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: "Docs: Deploy to GitHub Pages"
+name: pages-build-deploy
 
 on:
   push:
