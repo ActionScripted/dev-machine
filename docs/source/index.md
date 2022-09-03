@@ -2,11 +2,13 @@
 
 ```{toctree}
 ---
-maxdepth: 2
+caption: Development
+glob: true
 hidden: true
+maxdepth: 2
 ---
 
-development/index
+development/*
 ```
 
 Automate and maintain developer machine setup.
