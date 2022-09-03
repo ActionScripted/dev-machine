@@ -28,7 +28,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          name: sphinx-html
           path: docs/_build/html
   deploy:
     environment:
