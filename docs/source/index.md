@@ -15,6 +15,9 @@ usage/customization
 
 ## Platforms
 
+Package managers and Docker/Compose are installed if not present.
+
+
 ```{list-table}
 ---
 header-rows: 1
