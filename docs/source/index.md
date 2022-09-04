@@ -13,14 +13,6 @@ usage/getting-started
 usage/customization
 ```
 
-## Implementation
-
-The heart of `dev-machine` is Ansible via Docker run for/against the local machine. To get there across platforms we start with scripts that run package managers that install Docker which then runs Ansible.
-
-After going through {doc}`getting started <usage/getting-started>` your team will have a Git repository you can customize with `dev-machine` core setup as a sub-tree. The README and other documention in your repository is written for end users.
-
-Developer machines will have a `dev-machine` command that can check and update their machine against the team's `dev-machine` repository. Developer machines will never be automatically updated and all changes require confirmation.
-
 ## Platforms
 
 ```{list-table}
@@ -41,6 +33,14 @@ header-rows: 1
   - 11
   - [choco](https://chocolatey.org/)
 ```
+
+## Implementation
+
+The heart of `dev-machine` is Ansible via Docker run for/against the local machine. To get there across platforms we start with scripts that run package managers that install Docker which then runs Ansible.
+
+After going through {doc}`getting started <usage/getting-started>` your team will have a Git repository you can customize with `dev-machine` core setup as a sub-tree. The README and other documention in your repository is written for end users.
+
+Developer machines will have a `dev-machine` command that can check and update their machine against the team's `dev-machine` repository. Developer machines will never be automatically updated and all changes require confirmation.
 
 ## Development
 
