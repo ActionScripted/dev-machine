@@ -48,6 +48,14 @@ napoleon_use_rtype = True
 # -- Options for Read The Docs Theme -----------------------------------------
 # https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
 
+html_context = {
+    "conf_py_path": "/docs/source/",
+    "display_github": True,
+    "github_repo": "dev-machine",
+    "github_user": "actionscripted",
+    "github_version": "main",
+}
+
 html_theme_options = {
     # 'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
     # 'analytics_anonymize_ip': False,
