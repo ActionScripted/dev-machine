@@ -1,32 +1,17 @@
 # dev-machine
 
+Automate and maintain developer machine setup.
+
 ```{toctree}
 ---
 caption: Usage
-hidden: true
-maxdepth: 2
----
-
-getting-started
-```
-
-
-```{toctree}
----
-caption: Development
 glob: true
-hidden: true
-maxdepth: 2
+maxdepth: 1
 ---
 
-development/*
+usage/getting-started
+usage/customization
 ```
-
-Automate and maintain developer machine setup.
-
-## Getting Started
-
-To get started, check out {doc}`getting started <getting-started>`.
 
 ## Implementation
 
@@ -54,5 +39,16 @@ header-rows: 1
 ```
 
 ## Development
+
+```{toctree}
+---
+caption: Development
+glob: true
+hidden: true
+maxdepth: 2
+---
+
+development/*
+```
 
 To contribute, check out the {doc}`development overview <development/overview>`.
