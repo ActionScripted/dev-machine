@@ -40,7 +40,7 @@ The heart of `dev-machine` is Ansible via Docker run for/against the local machi
 
 After {doc}`getting started <usage/getting-started>` your team will have a Git repository you can customize with `dev-machine` core setup as a sub-tree. The README and other documention in your repository is written for end users.
 
-Developer machines will have a `dev-machine` command that can check and update their machine against the team's `dev-machine` repository. Developer machines will never be automatically updated and all changes require confirmation.
+Developer machines will have a `dev-machine` command that can check and update their machine against the team's repository. Developer machines will never be automatically updated and all changes require confirmation.
 
 ## Development
 
