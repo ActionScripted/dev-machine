@@ -1,6 +1,8 @@
 # Overview
 
-**This is for development of `dev-machine`, not customization.**
+```{note}
+This is intended for developers of `dev-machine` and not for {doc}`customization <../usage/customization>`.
+```
 
 ## Philosophy
 
