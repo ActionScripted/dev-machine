@@ -1,6 +1,6 @@
 # dev-machine
 
-Automate and maintain developer machine setup.
+Provide your team with a non-invasive, local-only way to get things setup and keep things in sync.
 
 ```{toctree}
 ---
