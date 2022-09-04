@@ -1,6 +1,6 @@
 # dev-machine
 
-Provide your team with a non-invasive, local-only way to get things setup and keep things in sync.
+Provide your team with a minimally-invasive, local-only way to get things setup and keep things in sync.
 
 ## Documentation
 
