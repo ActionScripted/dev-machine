@@ -22,16 +22,20 @@ header-rows: 1
 
 * - OS
   - Tested Version
-  - Package Manager
+  - Packages
+  - Docker
 * - macOS
   - 12.5.1
   - [brew](https://brew.sh/)
+  - [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/)
 * - Ubuntu
   - 22.04 LTS
   - [apt](https://wiki.debian.org/PackageManagement)
+  - [docker-ce](https://docs.docker.com/engine/install/ubuntu/)
 * - Windows
   - 11
   - [choco](https://chocolatey.org/)
+  - [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
 ```
 
 ## Implementation
