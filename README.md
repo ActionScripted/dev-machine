@@ -1,31 +1,33 @@
 # dev-machine
 
-Automate and maintain developer machine setup. Works with macOS, ~Windows~ and ~Debian-based Linux~.
+Automate and maintain developer machine setup. Provide your organization and developers with a non-invasive, local-only way to keep things in sync.
 
-Overview: bash > brew/choco > docker > asible
+## Documentation
 
-## Getting Started
+<https://actionscripted.github.io/dev-machine/>
 
-The endgame is a script that runs on developer machines: `dev-machine setup`. You're going to have a configuration for your organization or team and if there's something you need please [open an issue](https://github.com/ActionScripted/dev-machine/issues).
+## Quick Start
 
-We will refer to your organization as some flavor of `myorg` which is meant to be a slug of your organization's name and something you replace as you follow along.
-
-### Step 1: Create a Project
+Clone and bootstrap your organization's `dev-machine`:
 
 ```bash
-mkdir dev-machine--myorg
-cd dev-machine--myorg
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/do-stuff.sh)"
 
-# some curl thing here
+Organization name: My Organization
+Organization slug: myorg
 
-git init
-git commit -am "repo init"
+(...output from the setup...)
+
+---
+
+All set! Next, push this to your own repo and customize:
+
+git remote add origin git@github.com:myorg/dev-machine.git
+git push
 ```
 
-## Resources and Related
+Next, check out [getting started](https://actionscripted.github.io/dev-machine/usage/getting-started.html) and [customization](https://actionscripted.github.io/dev-machine/usage/customization.html).
 
-* <https://boxstarter.org/>
-* <https://brew.sh/>
-* <https://chocolatey.org/>
-* <https://gist.github.com/chamindac/6045561f84f8548b052f523114583d41>
-* <https://github.com/boxen/our-boxen>
+## License
+
+[MIT](./LICENSE)
