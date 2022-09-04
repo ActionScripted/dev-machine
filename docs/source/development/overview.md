@@ -6,6 +6,7 @@
 
 1. Easy to use.
 1. Easy to customize.
+1. Everything tested.
 
 ## Requirements
 
