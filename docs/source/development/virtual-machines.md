@@ -4,7 +4,7 @@ When working locally it can be nice to have a safe, isolated place to test thing
 
 ## macOS Virtual Machine
 
-### Get / Create macOS ISO
+### Get (Create) macOS ISO
 
 Download a software installer and create install media using a temporary local volume. Then convert the DMG to an ISO (CDR).
 
@@ -61,3 +61,15 @@ Run VM, give it the ISO, then in the VM:
 4. Power on, install VMWare Tools (or equivalent)
 5. Power down, take a VM snapshot
 6. DONE! If things get weird, rollback to a snapshot.
+
+## Windows Virtual Machine
+
+### Get Windows ISO
+
+* <https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/>
+* <https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/>
+
+## Run Windows Virtual Machine
+
+* <https://blogs.oracle.com/virtualization/post/install-microsoft-windows-11-on-virtualbox>
+* <https://kb.vmware.com/s/article/86207>

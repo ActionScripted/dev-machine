@@ -27,3 +27,9 @@ Resources that are similar or related or used as reference. Please update them w
 * <https://gist.github.com/chamindac/6045561f84f8548b052f523114583d41>
 * <https://github.com/boxen/our-boxen>
 * <https://github.com/geerlingguy/mac-dev-playbook>
+
+## Windows
+
+* <https://docs.chocolatey.org/en-us/choco/setup>
+* <https://docs.microsoft.com/en-us/windows/wsl/setup/environment>
+* <https://pureinfotech.com/uninstall-wsl2-windows-10/>
