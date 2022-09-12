@@ -26,10 +26,10 @@ down:
 	@docker-compose down
 
 setup:
+	git submodule update --init --recursive
 	@echo "Please install pre-commit:"
 	@echo "https://pre-commit.com/#installation"
 	pre-commit install
-	git submodule update --init --recursive
 
 
 ##
