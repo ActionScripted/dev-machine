@@ -5,6 +5,7 @@ Resources that are similar or related or used as reference. Please update them w
 ## CI / CD
 
 * <https://github.com/Homebrew/brew/blob/master/.github/workflows/tests.yml>
+* <https://github.com/actions/starter-workflows/tree/main/.github>
 * <https://rhonabwy.com/2020/05/09/continuous-integration-with-github-actions-for-macos-and-ios-projects/>
 
 ## Documentation
