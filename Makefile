@@ -1,11 +1,12 @@
 # Recipe targets (that aren't files...all of them)
 .PHONY : help \
+	build \
 	default \
-	docs-html \
 	docs-clean \
+	docs-html \
 	docs-shell \
-	dev-build \
-	dev-down \
+	down \
+	setup \
 
 
 # Recipes: Default (first is "default")
