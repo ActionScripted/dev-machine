@@ -11,5 +11,9 @@
 
 
 function has_command() {
-  return [ command -v $1> /dev/null ]
+  # See if a command exists or not.
+  #
+  # Example:
+  #   `if has_command "foo"; then echo "HAS FOO" fi`
+  command -v $1> /dev/null
 }

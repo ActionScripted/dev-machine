@@ -6,6 +6,7 @@
 	docs-html \
 	docs-shell \
 	down \
+	scripts-test \
 	setup \
 
 
@@ -26,11 +27,13 @@ help: ## show help
 down:
 	@docker-compose down
 
-setup:
-	git submodule update --init --recursive
-	@echo "Please install pre-commit:"
-	@echo "https://pre-commit.com/#installation"
+setup: submodules
 	pre-commit install
+
+submodules:
+	@git submodule update --init --recursive
+
+test: scripts-test-unit
 
 
 ##
@@ -46,3 +49,14 @@ docs-clean:
 
 docs-shell:
 	@$(docs-run) bash
+
+
+##
+# Scripts
+#
+scripts-run-mac:
+	@./scripts/mac/run.sh
+
+scripts-test-unit: submodules
+	@# TODO: run in a container?
+	@DM_PATH_SHUNIT="./scripts/shunit2/shunit2" ./scripts/mac/tests/unit.sh
