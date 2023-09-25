@@ -7,7 +7,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.0
       - name: Test xcode tools install
         run: echo "testing xcode tools install"
       - name: Test homebrew install
